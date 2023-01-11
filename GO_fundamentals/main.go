@@ -6,9 +6,6 @@ func main() {
 	fmt.Println("Hi, there! what are you up to so late?")
 }
 
-func main2() {
-	fmt.Println("Hi, there! what are you up to so late?")
-}
 
 //How do we run the code in our project?
 
