@@ -10,6 +10,13 @@ func main() {
 	for i, card := range cards {
 		fmt.Println(i, card)
 	}
+
+	for i, card := range cards {
+		fmt.Println(i, card)
+	}
+	or i, card := range cards {
+		fmt.Println(i, card)
+	}
 }
 
 func newCard() string {
