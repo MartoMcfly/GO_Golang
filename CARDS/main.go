@@ -3,7 +3,7 @@ package main
 //var card string = "Ace of Spades"
 func main() {
 
-	//cards := newDeck()
+	cards := newDeck()
 	// cards.print()
 
 	//fmt.Println(cards.toString())
@@ -17,7 +17,9 @@ func main() {
 
 	//cards.saveToFile("myCards")
 
-	cards := newDeckFromFile("myCa")
+	//cards := newDeckFromFile("myCa")
+
+	cards.shuffle()
 	cards.print()
 
 }
